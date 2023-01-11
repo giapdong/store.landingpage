@@ -9,6 +9,14 @@
     <link href="https://fonts.googleapis.com/css?family=Heebo:400,700|IBM+Plex+Sans:600" rel="stylesheet">
     <link rel="stylesheet" href="dist/css/style.css">
     <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+
+	<!-- Bootstrap core CSS -->
+	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- Additional CSS Files -->
+	<link rel="stylesheet" href="assets/css/fontawesome.css">
+	<link rel="stylesheet" href="assets/css/tooplate-main.css">
+	<link rel="stylesheet" href="assets/css/owl.css">
 </head>
 <body class="is-boxed has-animations">
     <div class="body-wrap boxed-container">
@@ -115,6 +123,95 @@
                 </div>
             </section>
 
+			<section>
+				<div class="featured-items">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="section-heading">
+									<div class="line-dec"></div>
+									<h1>Tết siêu ấm</h1>
+								</div>
+								</div>
+								<div class="col-md-12">
+								<div class="owl-carousel owl-theme">
+									<a href="single-product.html">
+										<div class="featured-item">
+											<img src="dist/thumb/feature-winter-01.jpg" alt="Item 1">
+											<h4>Bộ lông gấu mũ khóa hồng siêu xinh đồ bộ lông nữ thu đông ấm áp phối màu siêu xinh thời trang Hàn</h4>
+											<h6>106k</h6>
+										</div>
+									</a>
+									<a href="single-product.html">
+										<div class="featured-item">
+											<img src="dist/thumb/feature-winter-02.jpg" alt="Item 2">
+											<h4>Đồ bộ mặc nhà thu đông tím hồng cá mập Cute. Bộ lông ấm áp chống rét thời trang Hàn</h4>
+											<h6>75k</h6>
+										</div>
+									</a>
+									<a href="single-product.html">
+										<div class="featured-item">
+											<img src="dist/thumb/feature-winter-03.jpg" alt="Item 3">
+											<h4>Integer vel turpis</h4>
+											<h6>105k</h6>
+										</div>
+									</a>
+									<a href="single-product.html">
+										<div class="featured-item">
+											<img src="dist/thumb/feature-winter-04.jpg" alt="Item 4">
+											<h4>Bộ Đồ Ngủ Hai Món Bằng Vải Nhung San Hô Mềm Mại Phong Cách Nhật Bản Thời Trang Mùa Đông Cho Nữ</h4>
+											<h6>225k</h6>
+										</div>
+									</a>
+									<a href="single-product.html">
+										<div class="featured-item">
+											<img src="dist/thumb/feature-winter-05.jpg" alt="Item 5">
+											<h4>Bộ Đồ Ngủ Nữ - Quần Áo Mặc Ở Nhà Dài Tay chất vải nỉ bông lông 100%</h4>
+											<h6>187k</h6>
+										</div>
+									</a>
+									<a href="single-product.html">
+										<div class="featured-item">
+											<img src="dist/thumb/feature-winter-06.jpg" alt="Item 6">
+											<h4>[GOM SALE ORDER] BỘ MẶC NHÀ LÔNG CỪU MỀM SIÊU ẤM HÀNG QUẢNG CHÂU - BỘ NGỦ BÔNG MẪU MỚI NHẤT MÙA ĐÔNG 2022</h4>
+											<h6>165k</h6>
+										</div>
+									</a>
+									<a href="single-product.html">
+										<div class="featured-item">
+											<img src="dist/thumb/feature-winter-04.jpg" alt="Item 7">
+											<h4>[Freeship] Áo bomber Varsity Jacket BiiNoo, Áo Varsity Form Rộng</h4>
+											<h6>175k</h6>
+										</div>
+									</a>
+									<a href="single-product.html">
+										<div class="featured-item">
+											<img src="dist/thumb/feature-winter-05.jpg" alt="Item 8">
+											<h4>Áo len nữ màu đỏ mặc noel cực xinh</h4>
+											<h6>220k</h6>
+										</div>
+									</a>
+									<a href="single-product.html">
+										<div class="featured-item">
+											<img src="dist/thumb/feature-winter-06.jpg" alt="Item 9">
+											<h4>Áo ghi lê kẻ caro dệt kim cổ V phong cách Hàn Quốc</h4>
+											<h6>250k</h6>
+										</div>
+									</a>
+									<a href="single-product.html">
+										<div class="featured-item">
+											<img src="dist/thumb/feature-winter-06.jpg" alt="Item 9">
+											<h4>Chân váy ngắn vải lông lưng cao phong cách thời trang Hàn Quốc</h4>
+											<h6>195k</h6>
+										</div>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
 			<section class="cta section">
                 <div class="container-sm">
                     <div class="cta-inner section-inner">
@@ -186,5 +283,26 @@
     </div>
 
     <script src="dist/js/main.min.js"></script>
+
+	<!-- Bootstrap core JavaScript -->
+	<script src="vendor/jquery/jquery.min.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+
+	<!-- Additional Scripts -->
+	<script src="assets/js/custom.js"></script>
+	<script src="assets/js/owl.js"></script>
+
+
+	<script language = "text/Javascript"> 
+	cleared[0] = cleared[1] = cleared[2] = 0; //set a cleared flag for each field
+	function clearField(t){                   //declaring the array outside of the
+	if(! cleared[t.id]){                      // function makes it static and global
+		cleared[t.id] = 1;  // you could use true and false, but that's more typing
+		t.value='';         // with more chance of typos
+		t.style.color='#fff';
+		}
+	}
+	</script>
 </body>
 </html>
